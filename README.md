@@ -22,11 +22,11 @@ windows da klasörün olduğu dizin kısmına CMD yazıp enter basarsanız oto c
 kodları sırayla girin 
 
 1. kod 
-npm install
-```
+
+```npm install
 ```
 2. kod
-node ./index.js
-```
+
+```node ./index.js
 
 buy sell kısımlarını 1dk sonra kontrol edin sayı artıyorsa sorunsuz başlamıştır
