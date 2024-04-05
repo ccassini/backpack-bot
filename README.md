@@ -1,24 +1,32 @@
-# Guide
 
-
-**Note:**
 -Pairs: $SOL/$USDC
--Min: 10 $USDC in exchange
+en az 10 usdc ile çalışır
 
-----------------------------
-1. Create account: https://backpack.exchange/refer/8e2d407c-8caf-4cb0-99a1-af4f0aef9240](https://backpack.exchange/refer/8e2d407c-8caf-4cb0-99a1-af4f0aef9240
-   
-3. Create backpack API on backpack
 
-4. Install NodeJS: https://nodejs.org/en/download
-   
-6. Open file ```index.js``` and edit this to your ```API_KEY``` and ```API_SECRET```:
-  (lấy trên backpack: https://backpack.exchange/settings/api-keys)
 
-8. Start
-```
+1-BACKPACK GIR
+
+2. BACKPACK API OLUSTUR 
+backpack: https://backpack.exchange/settings/api-keys)
+
+index.js dosyasını not defteri veya text editör ile açın  içinde api tırnak içine girin 
+
+3. NodeJS YUKLE : https://nodejs.org/dist/v20.12.1/node-v20.12.1-x64.msi
+
+4. WINDOWS CMD  Mac terminal AÇIN
+
+5-Dosyanın olduğu klasöre windows cmd Mac terminal üzerinden dizine geçin 
+
+windows da klasörün olduğu dizin kısmına CMD yazıp enter basarsanız oto cmd gerekli dizinde çalışır
+
+kodları sırayla girin 
+
+1. kod 
 npm install
 ```
 ```
+2. kod
 node ./index.js
 ```
+
+buy sell kısımlarını 1dk sonra kontrol edin sayı artıyorsa sorunsuz başlamıştır
